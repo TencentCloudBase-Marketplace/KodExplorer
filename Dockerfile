@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM ccr.ccs.tencentyun.com/tcb_public/php:7.3-apache
 ENV Koddownload_URL http://static.kodcloud.com/update/download/kodbox.1.14.zip
 ##安装相关拓展
 RUN apt-get update && apt-get install -y \
